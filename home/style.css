@@ -79,7 +79,7 @@ nav a:hover {
 
 .main-container {
   width: 100%;
-  height: 700px;
+  height: 680px;
   background-image: url("../assets/tyler-nix-1fJxaZ3fcNs-unsplash 1.png");
   background-repeat: no-repeat, repeat;
   background-position: 50% 50%;
@@ -148,15 +148,11 @@ article {
 
 /* ipad */
 @media only screen and (max-width: 1477px) {
-    .main-container {
-        height: 1200px;
-        display: flex;
-      }
+    
 
 }
 /* phone */
 @media only screen and (max-width: 950px) {
-  .main-container {
-    height: 1200px;
-  }
+  
+ 
 }
