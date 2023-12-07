@@ -103,18 +103,24 @@ article img {
 
 .button {
   display: inline-block;
-  background-color: #59331d;
-  border-radius: 10px;
-  padding: 0.5rem 1rem;
-  color: #f2f2f2;
-  text-decoration: none;
-  border: 3px solid #59331d;
-  width: 30%;
-  margin: auto;
+    background-color: #59331d;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    color: #f2f2f2;
+    text-decoration: none;
+    border: 3px solid #59331d;
+    width: 30%;
+    margin: auto;
+    cursor: pointer;
 }
 .button:hover {
-  background-color: #f2f2f2;
-  color: #59331d;
+  background-color: #d98555;
+  color: #f2f2f2;
+  text-decoration: none;
+}
+.button a {
+  color:#f2f2f2;
+  text-decoration: none;
 }
 
 /* footer */
