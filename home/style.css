@@ -1,0 +1,162 @@
+body {
+  background-color: #082b59;
+  margin: 0;
+  padding: 0px;
+  font-family: "Lato", sans-serif;
+  line-height: 2;
+}
+p {
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+/* make images flexible */
+/* img {
+  max-width: 600%;
+} */
+
+a {
+  color: #59331d;
+  font-size: 1.2rem;
+}
+
+a:hover {
+  text-decoration: none;
+}
+header {
+  border-bottom: 10px solid #d98555;
+}
+/* navbar styling */
+.home-image-link {
+  width: 200px;
+}
+
+.home-image-link > img {
+  width: 100%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+nav a:hover {
+  color: #d98555;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 40px;
+}
+
+.links-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 345px;
+  margin-right: 40px;
+  margin-bottom: 50px;
+}
+
+/* establishes a white background */
+.main-bkgd {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: auto;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 180px;
+  color: #f2f2f2;
+}
+
+.main-container {
+  width: 100%;
+  height: 700px;
+  background-image: url("../assets/tyler-nix-1fJxaZ3fcNs-unsplash 1.png");
+  background-repeat: no-repeat, repeat;
+  background-position: 50% 50%;
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.blurb {
+  font-size: 22px;
+  line-height: 1.5;
+}
+/* sits inside of the white background, centered */
+.main {
+  display: flex;
+  height: 100%;
+  text-align: center;
+}
+
+article img {
+  border-radius: 10px 10px 10px 10px;
+  max-width: 1000px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #59331d;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  color: #f2f2f2;
+  text-decoration: none;
+  border: 3px solid #59331d;
+  width: 30%;
+  margin: auto;
+}
+.button:hover {
+  background-color: #f2f2f2;
+  color: #59331d;
+}
+
+/* footer */
+footer {
+  color: #f2f2f2;
+  text-align: center;
+  border-top: 10px solid #d98555;
+}
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+footer a {
+  color: #f2f2f2;
+  font-size: 2rem;
+  display: block;
+  margin: 0 1rem 3rem 1rem;
+}
+article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-text {
+  padding-right: 700px;
+}
+
+/* ipad */
+@media only screen and (max-width: 1477px) {
+    .main-container {
+        height: 1200px;
+        display: flex;
+      }
+
+}
+/* phone */
+@media only screen and (max-width: 950px) {
+  .main-container {
+    height: 1200px;
+  }
+}
