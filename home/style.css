@@ -148,8 +148,16 @@ article {
 
 /* ipad */
 @media only screen and (max-width: 1477px) {
-    
-
+    .main-container {
+        height: 1300px;
+      }
+      footer {
+margin-top: 330px;
+      }
+      .main-bkgd {
+        padding-top: 500px;
+        
+      }
 }
 /* phone */
 @media only screen and (max-width: 950px) {
